@@ -11,8 +11,6 @@ from torch.nn.utils import clip_grad_norm_
 import torchvision.transforms as transforms
 import cv2 as cv
 
-
-# Hyper Parameters
 BATCH_SIZE = 32
 LR = 0.01                   # learning rate
 EPSILON = 0.9               # greedy policy
